@@ -15,7 +15,7 @@ logger = get_logger(__name__)
 
 
 async def main():
-    logger.info("Starting the Bot")
+    logger.info("Bot is work")
 
     bot = Bot(token=TOKEN_BOT, default=DefaultBotProperties(parse_mode=ParseMode.HTML))
     dp = Dispatcher()
